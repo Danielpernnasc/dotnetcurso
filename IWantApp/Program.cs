@@ -1,5 +1,4 @@
-﻿
-using IWantApp.Endpoints.Categories;
+﻿using IWantApp.Endpoints.Categories;
 using IWantApp.Endpoints.Employees;
 using IWantApp.Endpoints.Security;
 using IWantApp.Infra.Data;
@@ -32,7 +31,7 @@ builder.Services.AddAuthentication(x =>
         ValidateActor = true,
         ValidateAudience = true,
         ValidateIssuer = true,
-        ValidateLifetime = true,
+        ValidateLifetime = true,    
         ValidateIssuerSigningKey = true,
         ClockSkew = TimeSpan.Zero,
         ValidIssuer = builder.Configuration["JwtBearerTokenSettings:Issuer"],
@@ -51,9 +50,6 @@ var app = builder.Build();
 app.UseAuthentication();
 app.UseAuthorization();
 
-
-
-
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -70,3 +66,4 @@ app.MapMethods(EmployeeGetAll.Template, EmployeeGetAll.Methods, EmployeeGetAll.H
 app.MapMethods(TokenPost.Template, TokenPost.Methods, TokenPost.Handle);
 
 app.Run();
+
