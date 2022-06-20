@@ -1,4 +1,4 @@
-﻿using IWantApp.Endpoints.Employees;
+﻿using IWantApp.Endpoint.Employees;
 using Microsoft.AspNetCore.Identity;
 
 using System.Security.Claims;

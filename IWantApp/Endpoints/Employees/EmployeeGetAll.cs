@@ -2,7 +2,7 @@
 using IWantApp.Infra.Data;
 
 
-namespace IWantApp.Endpoint.Employees;
+namespace IWantApp.Endpoints.Employees;
 
 public class EmployeeGetAll
 {

@@ -1,7 +1,7 @@
 ﻿using IWantApp.Domain.Products;
 using IWantApp.Infra.Data;
 
-namespace IWantApp.Endpoint.Categories;
+namespace IWantApp.Endpoints.Categories;
 
 public class CategoryGetAll
 {

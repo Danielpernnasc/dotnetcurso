@@ -1,6 +1,6 @@
 ﻿using System.Data.SqlClient;
 using Dapper;
-using IWantApp.Endpoint.Employees;
+using IWantApp.Endpoints.Employees;
 
 namespace IWantApp.Infra.Data;
 
