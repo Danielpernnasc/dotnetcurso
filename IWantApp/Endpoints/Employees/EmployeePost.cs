@@ -1,9 +1,9 @@
-﻿using IWantApp.Endpoint.Employees;
+﻿
 using Microsoft.AspNetCore.Identity;
 
 using System.Security.Claims;
 
-namespace IWantApp.Endpoint.Employees;
+namespace IWantApp.Endpoints.Employees;
 
 public class EmployeePost
 {

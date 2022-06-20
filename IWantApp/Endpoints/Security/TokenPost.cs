@@ -6,7 +6,7 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 
-namespace IWantApp.Endpoint.Security;
+namespace IWantApp.Endpoints.Security;
 
 public class TokenPost
 {
